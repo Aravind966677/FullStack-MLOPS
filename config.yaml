@@ -1,0 +1,16 @@
+# Data settings
+data_path: C:/Fullstack/Dataset/Telecom churn.csv
+
+# Model settings
+model_path: C:/Fullstack/models/model.joblib
+scaler_path: C:/Fullstack/models/scaler.joblib
+
+# Model parameters
+model_params:
+  n_estimators: 100
+  max_depth: 10
+
+# API settings
+api:
+  host: 0.0.0.0
+  port: 8000

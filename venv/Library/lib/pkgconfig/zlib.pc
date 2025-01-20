@@ -1,0 +1,13 @@
+prefix=C:/Full stack/venv/Library
+exec_prefix=C:/Full stack/venv/Library
+libdir=C:/Full stack/venv/Library/lib
+sharedlibdir=C:/Full stack/venv/Library/lib
+includedir=C:/Full stack/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
